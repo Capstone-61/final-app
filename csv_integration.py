@@ -67,7 +67,7 @@ def assign_weights(clusters: List[Tuple[List[float], List[str]]], modality_prior
         weighted_events.append({
             "timestamp": avg_timestamp,
             "weight": weight,
-            "duration": 20 + (weight - 1) * 2
+            "duration": 15 + (weight - 1) * 2
         })
 
     return weighted_events
